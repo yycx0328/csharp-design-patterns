@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace DP.SimpleFactory
 {
-    public class Russia : ICountry
+    public interface ICar
     {
-        public void ShowHeadsOfState()
-        {
-            Console.WriteLine("俄罗斯最高元首是普京！");
-        }
+        void StartUp();
+        void Run();
+        void Stop();
     }
 }

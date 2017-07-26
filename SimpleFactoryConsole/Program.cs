@@ -12,8 +12,10 @@ namespace SimpleFactoryConsole
         static void Main(string[] args)
         {
             Factory factory = new Factory();
-            ICountry country = factory.CreateInstance();
-            country.ShowHeadsOfState();
+            ICar car = factory.CreateInstance();
+            car.StartUp();
+            car.Run();
+            car.Stop();
             Console.ReadKey();
         }
     }
