@@ -45,6 +45,10 @@
     <Compile Include="ICar.cs" />
     <Compile Include="IBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Benz.cs" />
+    <Compile Include="BenzBuilder.cs" />
+    <Compile Include="BYD.cs" />
+    <Compile Include="BYDBuilder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
